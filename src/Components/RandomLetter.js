@@ -1,4 +1,4 @@
-import alphabet from "../Alphabet";
+import alphabet from "./Alphabet";
 let letter
 let Letters = document.getElementsByClassName('Letters')
 
