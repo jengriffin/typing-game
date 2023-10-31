@@ -5,7 +5,10 @@ import {type} from "@testing-library/user-event/dist/type";
 let Game =()=>{
 document.addEventListener('keypress', (event)=>{
     console.log(event)
+    let key = String.fromCharCode(event.keyCode)
+    console.log(key)
     })
+
 
 
     return
