@@ -1,5 +1,6 @@
 import RandomLetter from "./Components/RandomLetter";
 import './App.css';
+import Game from "./Components/Game";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
 
       </header>
       <RandomLetter className={"Letters"}/>
+        <Game/>
     </div>
   );
 }
