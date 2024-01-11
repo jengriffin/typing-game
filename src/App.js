@@ -1,5 +1,6 @@
 import './App.css';
 import Game from "./Components/Game";
+import RandomLetter from "./Components/RandomLetter";
 
 
 function App() {

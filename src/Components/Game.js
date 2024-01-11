@@ -1,5 +1,8 @@
 import alphabet from "./Alphabet";
 import letter from "./RandomLetter"
+import randomLetter from "./RandomLetter";
+import RandomLetter from "./RandomLetter";
+// randomLetter()
 let Game = () => {
     // let Letters = document.getElementsByClassName('Letters');
     // const generateRandomLetter = () => {
@@ -23,6 +26,7 @@ let Game = () => {
      * then the Game component renders the Letter component (I guess)
      * so Letter is a child of Game
      */
-    return (<p>{letter}</p>)
+    // return (<p>{letter}</p>)
+    return(<RandomLetter/>)
 }
 export default Game
