@@ -2,9 +2,11 @@ import alphabet from "./Alphabet";
 let letter
 let Letters = document.getElementsByClassName('Letters')
 
-let randomLetter =()=>{
+let randomLetter =(props)=>{
     letter= alphabet[Math.floor(Math.random() * alphabet.length)]
-    console.log(letter)
+    //console.log(letter)
+    //console.log(props)
+    console.log(props)
 
     return Letters.innerHTML= letter
 

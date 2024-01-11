@@ -45,6 +45,16 @@ let alphabet = [
     'श',
     'ष',
     'स',
-    'ह'
+    'ह',
+    'a',
+    'r',
+    's',
+    't',
+    'd',
+    'q',
+    'w',
+    'f',
+    'p',
+    'g'
 ]
 export default alphabet
