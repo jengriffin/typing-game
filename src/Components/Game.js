@@ -2,8 +2,8 @@ import alphabet from "./Alphabet";
 import letter from "./RandomLetter"
 import randomLetter from "./RandomLetter";
 import RandomLetter from "./RandomLetter";
-// randomLetter()
-let Game = () => {
+
+let Game = (props) => {
     // let Letters = document.getElementsByClassName('Letters');
     // const generateRandomLetter = () => {
     //     return alphabet[Math.floor(Math.random() * alphabet.length)]
@@ -14,6 +14,7 @@ let Game = () => {
     document.addEventListener('keypress', (event) => {
         let key = String.fromCharCode(event.keyCode)
         console.log(key)
+        console.log({letter:props})
          if (letter === key) {
              console.log("Hello! Colmack sucks")
 
@@ -27,6 +28,6 @@ let Game = () => {
      * so Letter is a child of Game
      */
     // return (<p>{letter}</p>)
-    return(<RandomLetter/>)
+    return <RandomLetter/>
 }
 export default Game

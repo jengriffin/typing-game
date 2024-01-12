@@ -5,7 +5,7 @@ let Letters = document.getElementsByClassName('Letters')
 let randomLetter =()=>{
     letter= alphabet[Math.floor(Math.random() * alphabet.length)]
     //console.log(letter)
-    //console.log(props)
+    // console.log(props)
     console.log(letter)
 
     return Letters.innerHTML= letter

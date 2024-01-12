@@ -55,6 +55,7 @@ let alphabet = [
     'w',
     'f',
     'p',
-    'g'
+    'g',
+    'q'
 ]
 export default alphabet
