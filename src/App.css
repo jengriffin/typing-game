@@ -12,6 +12,13 @@ body{
   min-height: 100vh;
   background-color:#370C42 ;
 }
+.bubble{
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  box-shadow: inset 0 0 25px #43F2FB;
+}
 .Letters{
   border:1000px blueviolet;
   background:saddlebrown;
