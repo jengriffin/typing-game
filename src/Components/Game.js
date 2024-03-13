@@ -19,6 +19,7 @@ let Game = () => {
 
          if (letter === key) {
              console.log("Hello! Colmack sucks")
+             return generateRandomLetter()
 
          } else {
              console.log(letter)
