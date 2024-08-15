@@ -31,6 +31,6 @@ let Game = () => {
      * so Letter is a child of Game
      */
     // return
-    return <div className="bubble"><p>{letter}</p></div>
+    return <div className="bubble">{letter}</div>
 }
 export default Game
