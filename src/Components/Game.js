@@ -1,4 +1,5 @@
 import alphabet from "./Alphabet";
+import {useState} from "react";
 import letter from "./RandomLetter"
 import randomLetter from "./RandomLetter";
 import RandomLetter from "./RandomLetter";
@@ -9,6 +10,7 @@ let Game = () => {
     const generateRandomLetter = () => {
         return alphabet[Math.floor(Math.random() * alphabet.length)]
     }
+    const [input, setInput] = useState('');
 
     let letter = generateRandomLetter();
 
@@ -17,9 +19,12 @@ let Game = () => {
         console.log(key)
         console.log(letter)
 
+
          if (letter === key) {
-             console.log("Hello! Colmack sucks")
-             return generateRandomLetter()
+             let letter = '';
+             generateRandomLetter();
+             location.reload(true)
+                 console.log("Hello! Colmack sucks")
 
          } else {
              console.log(letter)
@@ -32,5 +37,6 @@ let Game = () => {
      */
     // return
     return <div className="bubble">{letter}</div>
+
 }
 export default Game
